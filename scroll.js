@@ -19,7 +19,7 @@ $cover_img_container.css('height', $(window).height());
         momentum: false,
         hScrollbar: false,
         vScrollbar: false,
-        lockDirection: true
+        lockDirection: false
     });
 
 });

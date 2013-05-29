@@ -7,6 +7,34 @@
     
     <style type="text/css">
         .frame{width: 300px; height:300px; border: 3px solid black;overflow:hidden;}
+        #wrapper{
+            position:absolute;
+            z-index:1;
+            width: 300px;
+            height:300px;
+            top:0px;
+            left:0px;
+            overflow:hidden;
+        }
+        .scroller{
+        	position:absolute;
+            z-index:1;
+            -webkit-tap-highlight-color:rgba(0,0,0,0);
+            padding:0;
+            width:1309;
+            height:604;
+        }
+        .search_image
+        {
+            -webkit-transform:translate3d(0,0,0);
+            -moz-transform:translate3d(0px,0,0);
+        }
+        #img_container
+        {
+            width:1309px;
+            height:604px;
+            display: block;
+        }
     </style>
     
     
@@ -29,7 +57,9 @@
     <div class="frame">
         <div id="wrapper">
             <div class="scroller">
-                <img src="imgs/test.png"></img>
+                <div id="img_container">
+                <img class="search_image" src="imgs/test.png"></img>
+                </div>
             </div>
         </div>
 

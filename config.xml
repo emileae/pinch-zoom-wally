@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        id        = "wally.com.scknss.www"
+        version   = "0.0.1">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Wally Experiment</name>
+
+    <description>
+        Experimenting with a pinch to zoom example
+    </description>
+
+    <author href="http://www.scknss.com" email="emile@scknss.com">
+        Emile
+    </author>
+    
+    <preference name="orientation" value="landscape" />
+    <preference name="phonegap-version" value="2.7.0" />
+    
+    <access origin="*" />
+    
+</widget>
